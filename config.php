@@ -1,5 +1,5 @@
 <?php
-
+//Testing git
 $servername = "localhost";
 $username = "root";
 $password = "root";
