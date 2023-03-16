@@ -49,7 +49,7 @@ if (isset($_GET['id'])) {
                 <legen>Personal Info:</legen>
                 First Name:<br>
                 <input type="text" name="firstname" value="<?php echo $first_name; ?>">
-                <input type="hidden" name="user_id" value="<?php echo $id; ?>">
+                <input type="hidden" name="user_id" value="<?php echo $user_id; ?>">
                 <br>
                 Last Name:<br>
                 <input type="text" name="lastname" value="<?php echo $last_name; ?>">
@@ -68,7 +68,7 @@ if (isset($_GET['id'])) {
                                                                         echo "checked";
                                                                     } ?>>Female
                 <br><br>
-                <input type="submit" value="update" name="update">
+                <input type="submit" value="Update" name="update">
             </fieldset>
         </form>
 

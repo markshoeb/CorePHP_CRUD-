@@ -1,6 +1,6 @@
 <?php
 include "config.php";
-
+// Ok Tested!
 if (isset($_POST['submit'])) {
     $first_name = $_POST['firstname'];
     $last_name = $_POST['lastname'];
